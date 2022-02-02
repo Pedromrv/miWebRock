@@ -21,7 +21,7 @@
         </nav>
     </header>
     <main>
-        <h1>Bienvenidos a mi landing de rock</h1>
+        <h1 class="center">Bienvenidos a mi landing de rock</h1>
         <!-- section>h2>(article>h3+p)*3 -->
         <section>
             <h2>Rock News</h2>
@@ -89,8 +89,44 @@
               </table>
         </section>
 
+        <section>
+            <h2>Contacto</h2>
+            <form>
+                <h5>Tus datos: </h5>
+                <label for="fname">Nombre: </label><br>
+                <input type="text" id="fname" name="fname" maxlength="16" placeholder="Ingresa tu nombre"><br>
+                
+                <label for="lname">Apellidos: </label><br>
+                <input type="text" id="lname" name="lname" placeholder="Ingresa tus apellidos">
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu email.">
+
+                <h5>Género favorito</h5>
+                <input type="radio" id="glam" name="fav_genre" value="glam">
+                <label for="glam">Gkam</label><br>
+
+                <input type="radio" id="grunge" name="fav_genre" value="grunge">
+                <label for="grunge">Grunge</label><br>
+
+                <input type="radio" id="hard" name="fav_genre" value="hard">
+                <label for="hard">Hard Rock</label><br>
+
+                <h5>Observaciones</h5>
+                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="comentarios aqui"></textarea>
+                <br>
+                <input type="checkbox" id="accept" name="accept" value="condiciones">
+                <label for="accept"> Acepto las condiciones de uso</label><br>
+                <input type="checkbox" id="adds" name="adds" value="adds">
+                <label for="accept"> Permito que me manden publicidad</label><br>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+
     </main>
-    <footer>@copyright pedro</footer>
+    <br>
+    <footer>@copyright Pedro</footer>
     
 </body>
 </html>
