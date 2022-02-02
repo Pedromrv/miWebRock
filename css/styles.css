@@ -17,6 +17,9 @@ nav>ul>li{
 nav>ul>li>a{
     text-decoration: none;
 }
+form>h5{
+    margin: 0px 0px 8px;
+}
 
 h1{
     border: 1px solid black;
@@ -30,6 +33,22 @@ h2{
     padding: 10px;
     background-color: #2d7b26;
     color: white;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    margin: 8px 0px;
+    padding: 12px 0px;
+  }
+
+  input[type=submit]{
+    background-color: #19535F;
+    color:#F0F3F5;
+}
+input[type=submit]:hover{
+    background-color: #0B7A75;
+    color:#F0F3F5;
+    cursor:pointer;
 }
 /* SELECTOR DE CLASE */
 .song{
