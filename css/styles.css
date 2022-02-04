@@ -1,8 +1,19 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin-top: 70px;
 }
 body{
     background-color: #F0F3F5;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    background-color: #19535F;
+    font-size: 20px;
+    text-align: center;
 }
 main{
     margin-left: 8px;
@@ -64,6 +75,17 @@ input[type=submit]:hover{
 }
 .center{
     text-align: center;
+}
+div.top{
+  position: fixed;
+  bottom: 0;
+  right: 8px;
+  background-color: #19535F;
+  font-size: 20px;
+}
+div.top > a {
+    color:#F0F3F5;
+    text-decoration: none;
 }
 /* SELECTOR DE ID */
 #songs{
